@@ -12,7 +12,7 @@ class CardGame
 
 
   def check_for_ace(card)
-    if card_value = 1
+    if card_value == 1 #== added in after static test due to being missed
       return true
     else
       return false

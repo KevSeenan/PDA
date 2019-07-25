@@ -20,6 +20,9 @@ class TestCardGame < MiniTest::Test
     assert_equal(6, @card2.value)
   end
 
-
+  def test_for_finding_value_of_cards_in_hand()
+    total = @card1.value + @card2.value
+    assert_equal(7, total)
+  end
 
 end
