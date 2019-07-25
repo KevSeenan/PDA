@@ -5,7 +5,7 @@
 
 class CardGame
 
-  def initialize(suit, value)
+  def initialize(suit, value)  #This was also missing from static test file
     @suit = suit
     @value = value;
   end
